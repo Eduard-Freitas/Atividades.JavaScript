@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 8</title>
+</head>
+    <h1>Determinar n!</h1>
+<body>
+    <script>
+        let n, 
+            contador = 1, 
+            fatorial = 1; 
+  
+        console.log("\n\tCalculo do fatorial de um numero\n");
+        n = parseInt(prompt("\nDigite um inteiro nao-negativo: "));
+  
+  
+        while (contador <= n) {
+            fatorial = fatorial * contador;
+            contador = contador + 1;
+         }
+
+        console.log("O valor de %d!: " + fatorial, n);
+        
+    </script>
+</body>
+</html>
